@@ -1,0 +1,25 @@
+###########################
+# UaModeler Project File  #
+# Generated at 21.07.2026 #
+###########################
+
+PROJECTNAME = esercizio1
+
+TEMPLATESET = ($TEMPLATES)/modeling/v1_0/t0/modeling.tt2set
+
+MODELS += ($MODELS)/Opc.Ua.NodeSet2.ua \
+    esercizio1.ua
+
+COLORS = ($MODELS)/Opc.Ua.NodeSet2.ua: #0000ff\
+    esercizio1.ua: #008000
+
+OUTPUTPATH = output
+
+GENERATE += esercizio1.ua
+
+NODEACCESSINFOROLES += Administrator \
+    SecurityAdmin \
+    ConfigurationAdmin \
+    Operator \
+    Observer
+
